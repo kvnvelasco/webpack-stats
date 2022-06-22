@@ -1,0 +1,25 @@
+[package]
+name = "webpack-stats"
+version = "0.1.0"
+edition = "2021"
+description = """
+A set of data structures that map to the webpack stats file.
+
+"""
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1", features = ['derive'] }
+serde_json = { version = "1", optional = true }
+zerovec = { version = "0.7", features = ['serde'] }
+thiserror = "1"
+
+empty_type = { version = "0.2.1", features = ['serde', 'derive'] }
+
+[dev-dependencies]
+serde_json = "1"
+
+[features]
+default = ['v5']
+fs = ['dep:serde_json']
+v5 = []

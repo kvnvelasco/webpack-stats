@@ -1,0 +1,501 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.46.0",
+  "hash": "ab7286c0efd1742088ec",
+  "time": 58,
+  "builtAt": 1655450984002,
+  "publicPath": "",
+  "outputPath": "/home/kevin_velasco/Data/Projects/webpack-stats/test_projects/v4/dist",
+  "assetsByChunkName": {
+    "index": "index.js"
+  },
+  "assets": [
+    {
+      "name": "1.js",
+      "size": 145,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "2.js",
+      "size": 179,
+      "chunks": [
+        2
+      ],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "index.js",
+      "size": 2220,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "index"
+      ],
+      "info": {},
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "index": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "index.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "index": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "index.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 193,
+      "names": [
+        "index"
+      ],
+      "files": [
+        "index.js"
+      ],
+      "hash": "792ac7a822cd012d012a",
+      "siblings": [],
+      "parents": [],
+      "children": [
+        1,
+        2
+      ],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/test_projects/common_src/index.js",
+          "name": "./index.js",
+          "index": 0,
+          "index2": 0,
+          "size": 193,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 14,
+            "building": 8
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./index.js",
+              "loc": "index"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0,
+          "source": "\n\nconsole.log(\"Basic project\");\n\n(async function() {\n\n    const moduleOne = await import('./module1');\n    moduleOne();\n\n    const {moduleTwo} = await import('./module2');\n    moduleTwo()\n})();"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "index",
+          "request": "./index.js",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 60,
+      "names": [],
+      "files": [
+        "1.js"
+      ],
+      "hash": "c25eb27f2a7248a1541b",
+      "siblings": [],
+      "parents": [
+        0
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": 1,
+          "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/test_projects/common_src/module1.js",
+          "name": "./module1.js",
+          "index": 1,
+          "index2": 1,
+          "size": 60,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "issuer": "/home/kevin_velasco/Data/Projects/webpack-stats/test_projects/common_src/index.js",
+          "issuerId": 0,
+          "issuerName": "./index.js",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/test_projects/common_src/index.js",
+              "name": "./index.js",
+              "profile": {
+                "factory": 14,
+                "building": 8
+              }
+            }
+          ],
+          "profile": {
+            "factory": 3,
+            "building": 2
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/test_projects/common_src/index.js",
+              "module": "./index.js",
+              "moduleName": "./index.js",
+              "type": "import()",
+              "userRequest": "./module1",
+              "loc": "7:28-47"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./index.js (referenced with import())"
+          ],
+          "depth": 1,
+          "source": "\n\nexport default function() {\n    console.log(\"Module 1!\")\n}"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": 0,
+          "module": "/home/kevin_velasco/Data/Projects/webpack-stats/test_projects/common_src/index.js",
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/test_projects/common_src/index.js",
+          "moduleName": "./index.js",
+          "loc": "7:28-47",
+          "request": "./module1",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 62,
+      "names": [],
+      "files": [
+        "2.js"
+      ],
+      "hash": "27a07f393e099c2d522d",
+      "siblings": [],
+      "parents": [
+        0
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": 2,
+          "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/test_projects/common_src/module2.js",
+          "name": "./module2.js",
+          "index": 2,
+          "index2": 2,
+          "size": 62,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            2
+          ],
+          "issuer": "/home/kevin_velasco/Data/Projects/webpack-stats/test_projects/common_src/index.js",
+          "issuerId": 0,
+          "issuerName": "./index.js",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/test_projects/common_src/index.js",
+              "name": "./index.js",
+              "profile": {
+                "factory": 14,
+                "building": 8
+              }
+            }
+          ],
+          "profile": {
+            "factory": 3,
+            "building": 2
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/test_projects/common_src/index.js",
+              "module": "./index.js",
+              "moduleName": "./index.js",
+              "type": "import()",
+              "userRequest": "./module2",
+              "loc": "10:30-49"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "moduleTwo"
+          ],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./index.js (referenced with import())"
+          ],
+          "depth": 1,
+          "source": "\n\nexport function moduleTwo() {\n    console.log(\"Module 2!\")\n}"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": 0,
+          "module": "/home/kevin_velasco/Data/Projects/webpack-stats/test_projects/common_src/index.js",
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/test_projects/common_src/index.js",
+          "moduleName": "./index.js",
+          "loc": "10:30-49",
+          "request": "./module2",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/test_projects/common_src/index.js",
+      "name": "./index.js",
+      "index": 0,
+      "index2": 0,
+      "size": 193,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "profile": {
+        "factory": 14,
+        "building": 8
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "./index.js",
+          "loc": "index"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 0,
+      "source": "\n\nconsole.log(\"Basic project\");\n\n(async function() {\n\n    const moduleOne = await import('./module1');\n    moduleOne();\n\n    const {moduleTwo} = await import('./module2');\n    moduleTwo()\n})();"
+    },
+    {
+      "id": 1,
+      "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/test_projects/common_src/module1.js",
+      "name": "./module1.js",
+      "index": 1,
+      "index2": 1,
+      "size": 60,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "/home/kevin_velasco/Data/Projects/webpack-stats/test_projects/common_src/index.js",
+      "issuerId": 0,
+      "issuerName": "./index.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/test_projects/common_src/index.js",
+          "name": "./index.js",
+          "profile": {
+            "factory": 14,
+            "building": 8
+          }
+        }
+      ],
+      "profile": {
+        "factory": 3,
+        "building": 2
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/test_projects/common_src/index.js",
+          "module": "./index.js",
+          "moduleName": "./index.js",
+          "type": "import()",
+          "userRequest": "./module1",
+          "loc": "7:28-47"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./index.js (referenced with import())"
+      ],
+      "depth": 1,
+      "source": "\n\nexport default function() {\n    console.log(\"Module 1!\")\n}"
+    },
+    {
+      "id": 2,
+      "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/test_projects/common_src/module2.js",
+      "name": "./module2.js",
+      "index": 2,
+      "index2": 2,
+      "size": 62,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
+      ],
+      "issuer": "/home/kevin_velasco/Data/Projects/webpack-stats/test_projects/common_src/index.js",
+      "issuerId": 0,
+      "issuerName": "./index.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/test_projects/common_src/index.js",
+          "name": "./index.js",
+          "profile": {
+            "factory": 14,
+            "building": 8
+          }
+        }
+      ],
+      "profile": {
+        "factory": 3,
+        "building": 2
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/test_projects/common_src/index.js",
+          "module": "./index.js",
+          "moduleName": "./index.js",
+          "type": "import()",
+          "userRequest": "./module2",
+          "loc": "10:30-49"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "moduleTwo"
+      ],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./index.js (referenced with import())"
+      ],
+      "depth": 1,
+      "source": "\n\nexport function moduleTwo() {\n    console.log(\"Module 2!\")\n}"
+    }
+  ],
+  "filteredModules": 0,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": []
+}
