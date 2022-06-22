@@ -1,0 +1,21 @@
+[package]
+name = "webpack-q-cli"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[[bin]]
+name = "webpack-q"
+path = "./src/main.rs"
+
+[dependencies]
+webpack-q = { path = "../../crates/webpack-q" }
+clap = { version = "3", features = ['derive'] }
+tracing = "0.1"
+serde_json = "1"
+serde = "1"
+tracing-subscriber = "0.3"
+anyhow = "1.0.58"
+dot = "0.1.4"
+
+

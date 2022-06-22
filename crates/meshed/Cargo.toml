@@ -1,0 +1,18 @@
+[package]
+name = "meshed"
+version = "0.1.2"
+edition = "2021"
+description = "Graph creation and traversal tools"
+categories = [
+    "algorithms"
+]
+
+license = "Apache-2.0"
+readme = "README.md"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tracing = "0.1"
+dot = "0.1.4"
+
+

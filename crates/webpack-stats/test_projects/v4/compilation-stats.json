@@ -1,0 +1,1603 @@
+{
+  "errors": [],
+  "warnings": [
+    "configuration\nThe 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.\nYou can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/"
+  ],
+  "version": "4.46.0",
+  "hash": "92c79e520b5375a28936",
+  "time": 133,
+  "builtAt": 1656397530593,
+  "publicPath": "",
+  "outputPath": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/v4/dist",
+  "assetsByChunkName": {
+    "entryTwo": "entryTwo.js",
+    "index": "index.js"
+  },
+  "assets": [
+    {
+      "name": "0.js",
+      "size": 192,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "3.js",
+      "size": 78,
+      "chunks": [
+        3
+      ],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "4.js",
+      "size": 139,
+      "chunks": [
+        4
+      ],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "entryTwo.js",
+      "size": 2309,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "entryTwo"
+      ],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "index.js",
+      "size": 2461,
+      "chunks": [
+        2,
+        4
+      ],
+      "chunkNames": [
+        "index"
+      ],
+      "info": {},
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "index": {
+      "chunks": [
+        2
+      ],
+      "assets": [
+        "index.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "entryTwo": {
+      "chunks": [
+        1
+      ],
+      "assets": [
+        "entryTwo.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "index": {
+      "chunks": [
+        2
+      ],
+      "assets": [
+        "index.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "entryTwo": {
+      "chunks": [
+        1
+      ],
+      "assets": [
+        "entryTwo.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "reason": "reused as split chunk (cache group: default)",
+      "size": 741,
+      "names": [],
+      "files": [
+        "0.js"
+      ],
+      "hash": "a4d38dc23d3f9f1fd30c",
+      "siblings": [
+        4
+      ],
+      "parents": [
+        1,
+        2
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": 4,
+          "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+          "name": "./module1.js",
+          "index": 6,
+          "index2": 6,
+          "size": 741,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "issuerId": null,
+          "issuerName": "./index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+              "name": "./index.js",
+              "profile": {
+                "factory": 23,
+                "building": 15
+              }
+            }
+          ],
+          "profile": {
+            "factory": 10,
+            "building": 8,
+            "dependencies": 2
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+              "module": "./entry_two.js",
+              "moduleName": "./entry_two.js",
+              "type": "import()",
+              "userRequest": "./module1",
+              "loc": "22:28-47"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+              "module": "./index.js",
+              "moduleName": "./index.js",
+              "type": "import()",
+              "userRequest": "./module1",
+              "loc": "26:28-47"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./entry_two.js (referenced with import()), ./index.js (referenced with import())"
+          ],
+          "depth": 1,
+          "source": "/*\n * Copyright [2022] [Kevin Velasco]\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n * http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n\nimport common from './common';\nimport {util} from \"./utils\";\nexport default function() {\n    common()\n    util()\n    console.log(\"Module 1!\")\n}"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": 2,
+          "module": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+          "moduleName": "./entry_two.js",
+          "loc": "22:28-47",
+          "request": "./module1",
+          "reasons": []
+        },
+        {
+          "moduleId": null,
+          "module": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "moduleName": "./index.js",
+          "loc": "26:28-47",
+          "request": "./module1",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 1400,
+      "names": [
+        "entryTwo"
+      ],
+      "files": [
+        "entryTwo.js"
+      ],
+      "hash": "7977d177c667fd9aa3a7",
+      "siblings": [],
+      "parents": [],
+      "children": [
+        0,
+        4
+      ],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/common.js",
+          "name": "./common.js",
+          "index": 3,
+          "index2": 1,
+          "size": 635,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1,
+            2
+          ],
+          "issuer": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "issuerId": null,
+          "issuerName": "./index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+              "name": "./index.js",
+              "profile": {
+                "factory": 23,
+                "building": 15
+              }
+            }
+          ],
+          "profile": {
+            "factory": 10,
+            "building": 8,
+            "dependencies": 2
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+              "module": "./entry_two.js",
+              "moduleName": "./entry_two.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./common",
+              "loc": "17:0-30"
+            },
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+              "module": "./entry_two.js",
+              "moduleName": "./entry_two.js",
+              "type": "harmony import specifier",
+              "userRequest": "./common",
+              "loc": "24:4-10"
+            },
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js 20c5792f3c4922c6c6bdc862bd998a6d",
+              "module": "./index.js + 1 modules",
+              "moduleName": "./index.js + 1 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./common",
+              "loc": "17:0-30"
+            },
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js 20c5792f3c4922c6c6bdc862bd998a6d",
+              "module": "./index.js + 1 modules",
+              "moduleName": "./index.js + 1 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./common",
+              "loc": "18:0-30"
+            },
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js 20c5792f3c4922c6c6bdc862bd998a6d",
+              "module": "./index.js + 1 modules",
+              "moduleName": "./index.js + 1 modules",
+              "type": "harmony import specifier",
+              "userRequest": "./common",
+              "loc": "19:4-10"
+            },
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js 20c5792f3c4922c6c6bdc862bd998a6d",
+              "module": "./index.js + 1 modules",
+              "moduleName": "./index.js + 1 modules",
+              "type": "harmony import specifier",
+              "userRequest": "./common",
+              "loc": "28:4-10"
+            },
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+              "module": "./module1.js",
+              "moduleName": "./module1.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./common",
+              "loc": "17:0-30"
+            },
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+              "module": "./module1.js",
+              "moduleName": "./module1.js",
+              "type": "harmony import specifier",
+              "userRequest": "./common",
+              "loc": "20:4-10"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "/*\n * Copyright [2022] [Kevin Velasco]\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n * http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n\nexport default function common() {\n\n}"
+        },
+        {
+          "id": 2,
+          "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+          "name": "./entry_two.js",
+          "index": 4,
+          "index2": 4,
+          "size": 765,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 18,
+            "building": 17,
+            "dependencies": 7
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./entry_two.js",
+              "loc": "entryTwo"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is an entry point"
+          ],
+          "depth": 0,
+          "source": "/*\n * Copyright [2022] [Kevin Velasco]\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n * http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n\nimport common from './common';\n\nconsole.log(\"Basic project\");\n\n(async function() {\n    const moduleOne = await import('./module1');\n    moduleOne();\n    common()\n})();"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "entryTwo",
+          "request": "./entry_two.js",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 2878,
+      "names": [
+        "index"
+      ],
+      "files": [
+        "index.js"
+      ],
+      "hash": "c0687a4885e6ab3e005f",
+      "siblings": [],
+      "parents": [],
+      "children": [
+        0,
+        3
+      ],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/common.js",
+          "name": "./common.js",
+          "index": 3,
+          "index2": 1,
+          "size": 635,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1,
+            2
+          ],
+          "issuer": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "issuerId": null,
+          "issuerName": "./index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+              "name": "./index.js",
+              "profile": {
+                "factory": 23,
+                "building": 15
+              }
+            }
+          ],
+          "profile": {
+            "factory": 10,
+            "building": 8,
+            "dependencies": 2
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+              "module": "./entry_two.js",
+              "moduleName": "./entry_two.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./common",
+              "loc": "17:0-30"
+            },
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+              "module": "./entry_two.js",
+              "moduleName": "./entry_two.js",
+              "type": "harmony import specifier",
+              "userRequest": "./common",
+              "loc": "24:4-10"
+            },
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js 20c5792f3c4922c6c6bdc862bd998a6d",
+              "module": "./index.js + 1 modules",
+              "moduleName": "./index.js + 1 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./common",
+              "loc": "17:0-30"
+            },
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js 20c5792f3c4922c6c6bdc862bd998a6d",
+              "module": "./index.js + 1 modules",
+              "moduleName": "./index.js + 1 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./common",
+              "loc": "18:0-30"
+            },
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js 20c5792f3c4922c6c6bdc862bd998a6d",
+              "module": "./index.js + 1 modules",
+              "moduleName": "./index.js + 1 modules",
+              "type": "harmony import specifier",
+              "userRequest": "./common",
+              "loc": "19:4-10"
+            },
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js 20c5792f3c4922c6c6bdc862bd998a6d",
+              "module": "./index.js + 1 modules",
+              "moduleName": "./index.js + 1 modules",
+              "type": "harmony import specifier",
+              "userRequest": "./common",
+              "loc": "28:4-10"
+            },
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+              "module": "./module1.js",
+              "moduleName": "./module1.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./common",
+              "loc": "17:0-30"
+            },
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+              "module": "./module1.js",
+              "moduleName": "./module1.js",
+              "type": "harmony import specifier",
+              "userRequest": "./common",
+              "loc": "20:4-10"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "/*\n * Copyright [2022] [Kevin Velasco]\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n * http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n\nexport default function common() {\n\n}"
+        },
+        {
+          "id": 1,
+          "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/utils.js",
+          "name": "./utils.js",
+          "index": 2,
+          "index2": 0,
+          "size": 627,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            2,
+            4
+          ],
+          "issuer": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+          "issuerId": null,
+          "issuerName": "./module2.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+              "name": "./index.js",
+              "profile": {
+                "factory": 23,
+                "building": 15
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+              "name": "./module2.js",
+              "profile": {
+                "factory": 10,
+                "building": 8,
+                "dependencies": 2
+              }
+            }
+          ],
+          "profile": {
+            "factory": 7,
+            "building": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js 20c5792f3c4922c6c6bdc862bd998a6d",
+              "module": "./index.js + 1 modules",
+              "moduleName": "./index.js + 1 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./utils",
+              "loc": "16:0-29"
+            },
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js 20c5792f3c4922c6c6bdc862bd998a6d",
+              "module": "./index.js + 1 modules",
+              "moduleName": "./index.js + 1 modules",
+              "type": "harmony import specifier",
+              "userRequest": "./utils",
+              "loc": "20:4-8"
+            },
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+              "module": "./module1.js",
+              "moduleName": "./module1.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./utils",
+              "loc": "18:0-29"
+            },
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+              "module": "./module1.js",
+              "moduleName": "./module1.js",
+              "type": "harmony import specifier",
+              "userRequest": "./utils",
+              "loc": "21:4-8"
+            }
+          ],
+          "usedExports": [
+            "util"
+          ],
+          "providedExports": [
+            "util"
+          ],
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "/*\n * Copyright [2022] [Kevin Velasco]\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n * http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n\n\nexport function util () {\n\n}"
+        },
+        {
+          "id": 3,
+          "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js 20c5792f3c4922c6c6bdc862bd998a6d",
+          "name": "./index.js + 1 modules",
+          "index": 0,
+          "index2": 3,
+          "size": 1616,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            2
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./index.js",
+              "loc": "index"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Cannot concat with ./common.js",
+            "ModuleConcatenation bailout: Cannot concat with ./utils.js"
+          ],
+          "depth": 0,
+          "modules": [
+            {
+              "id": null,
+              "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+              "name": "./index.js",
+              "index": 0,
+              "index2": 3,
+              "size": 864,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "profile": {
+                "factory": 23,
+                "building": 15
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "./index.js",
+                  "loc": "index"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [],
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is an entry point"
+              ],
+              "depth": 0,
+              "source": "/*\n * Copyright [2022] [Kevin Velasco]\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n * http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n\nimport { moduleTwo } from './module2';\nimport common from './common';\n\n\nconsole.log(\"Basic project\");\n\n(async function() {\n    const image = import('./empty.png');\n\n    const moduleOne = await import('./module1');\n    moduleOne();\n    common()\n\n    moduleTwo()\n})();"
+            },
+            {
+              "id": null,
+              "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+              "name": "./module2.js",
+              "index": 1,
+              "index2": 2,
+              "size": 742,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+              "issuerId": null,
+              "issuerName": "./index.js",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+                  "name": "./index.js",
+                  "profile": {
+                    "factory": 23,
+                    "building": 15
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 10,
+                "building": 8,
+                "dependencies": 2
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+                  "module": "./index.js",
+                  "moduleName": "./index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./module2",
+                  "loc": "17:0-38"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+                  "module": "./index.js",
+                  "moduleName": "./index.js",
+                  "type": "harmony import specifier",
+                  "userRequest": "./module2",
+                  "loc": "30:4-13"
+                }
+              ],
+              "usedExports": [
+                "moduleTwo"
+              ],
+              "providedExports": [
+                "moduleTwo"
+              ],
+              "optimizationBailout": [],
+              "depth": 1,
+              "source": "/*\n * Copyright [2022] [Kevin Velasco]\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n * http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\nimport {util} from './utils';\nimport common from './common';\nexport function moduleTwo() {\n    common()\n    util()\n    console.log(\"Module 2!\")\n}"
+            }
+          ],
+          "filteredModules": 0
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "index",
+          "request": "./index.js",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 0,
+      "names": [],
+      "files": [
+        "3.js"
+      ],
+      "hash": "54c03dc3218b4d81a665",
+      "siblings": [],
+      "parents": [
+        2
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": 5,
+          "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/empty.png",
+          "name": "./empty.png",
+          "index": 5,
+          "index2": 5,
+          "size": 0,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            3
+          ],
+          "issuer": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "issuerId": null,
+          "issuerName": "./index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+              "name": "./index.js",
+              "profile": {
+                "factory": 23,
+                "building": 15
+              }
+            }
+          ],
+          "profile": {
+            "factory": 10,
+            "building": 8,
+            "dependencies": 2
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+              "module": "./index.js",
+              "moduleName": "./index.js",
+              "type": "import()",
+              "userRequest": "./empty.png",
+              "loc": "24:18-39"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1,
+          "source": ""
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": null,
+          "module": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "moduleName": "./index.js",
+          "loc": "24:18-39",
+          "request": "./empty.png",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 627,
+      "names": [],
+      "files": [
+        "4.js"
+      ],
+      "hash": "2e5542e5a3be9227edf2",
+      "siblings": [
+        0
+      ],
+      "parents": [
+        1
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": 1,
+          "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/utils.js",
+          "name": "./utils.js",
+          "index": 2,
+          "index2": 0,
+          "size": 627,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            2,
+            4
+          ],
+          "issuer": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+          "issuerId": null,
+          "issuerName": "./module2.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+              "name": "./index.js",
+              "profile": {
+                "factory": 23,
+                "building": 15
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+              "name": "./module2.js",
+              "profile": {
+                "factory": 10,
+                "building": 8,
+                "dependencies": 2
+              }
+            }
+          ],
+          "profile": {
+            "factory": 7,
+            "building": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js 20c5792f3c4922c6c6bdc862bd998a6d",
+              "module": "./index.js + 1 modules",
+              "moduleName": "./index.js + 1 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./utils",
+              "loc": "16:0-29"
+            },
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js 20c5792f3c4922c6c6bdc862bd998a6d",
+              "module": "./index.js + 1 modules",
+              "moduleName": "./index.js + 1 modules",
+              "type": "harmony import specifier",
+              "userRequest": "./utils",
+              "loc": "20:4-8"
+            },
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+              "module": "./module1.js",
+              "moduleName": "./module1.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./utils",
+              "loc": "18:0-29"
+            },
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+              "module": "./module1.js",
+              "moduleName": "./module1.js",
+              "type": "harmony import specifier",
+              "userRequest": "./utils",
+              "loc": "21:4-8"
+            }
+          ],
+          "usedExports": [
+            "util"
+          ],
+          "providedExports": [
+            "util"
+          ],
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "/*\n * Copyright [2022] [Kevin Velasco]\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n * http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n\n\nexport function util () {\n\n}"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": 2,
+          "module": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+          "moduleName": "./entry_two.js",
+          "loc": "22:28-47",
+          "request": "./module1",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/common.js",
+      "name": "./common.js",
+      "index": 3,
+      "index2": 1,
+      "size": 635,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1,
+        2
+      ],
+      "issuer": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+      "issuerId": null,
+      "issuerName": "./index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "name": "./index.js",
+          "profile": {
+            "factory": 23,
+            "building": 15
+          }
+        }
+      ],
+      "profile": {
+        "factory": 10,
+        "building": 8,
+        "dependencies": 2
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+          "module": "./entry_two.js",
+          "moduleName": "./entry_two.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "./common",
+          "loc": "17:0-30"
+        },
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+          "module": "./entry_two.js",
+          "moduleName": "./entry_two.js",
+          "type": "harmony import specifier",
+          "userRequest": "./common",
+          "loc": "24:4-10"
+        },
+        {
+          "moduleId": 3,
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js 20c5792f3c4922c6c6bdc862bd998a6d",
+          "module": "./index.js + 1 modules",
+          "moduleName": "./index.js + 1 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "./common",
+          "loc": "17:0-30"
+        },
+        {
+          "moduleId": 3,
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js 20c5792f3c4922c6c6bdc862bd998a6d",
+          "module": "./index.js + 1 modules",
+          "moduleName": "./index.js + 1 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "./common",
+          "loc": "18:0-30"
+        },
+        {
+          "moduleId": 3,
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js 20c5792f3c4922c6c6bdc862bd998a6d",
+          "module": "./index.js + 1 modules",
+          "moduleName": "./index.js + 1 modules",
+          "type": "harmony import specifier",
+          "userRequest": "./common",
+          "loc": "19:4-10"
+        },
+        {
+          "moduleId": 3,
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js 20c5792f3c4922c6c6bdc862bd998a6d",
+          "module": "./index.js + 1 modules",
+          "moduleName": "./index.js + 1 modules",
+          "type": "harmony import specifier",
+          "userRequest": "./common",
+          "loc": "28:4-10"
+        },
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+          "module": "./module1.js",
+          "moduleName": "./module1.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "./common",
+          "loc": "17:0-30"
+        },
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+          "module": "./module1.js",
+          "moduleName": "./module1.js",
+          "type": "harmony import specifier",
+          "userRequest": "./common",
+          "loc": "20:4-10"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 1,
+      "source": "/*\n * Copyright [2022] [Kevin Velasco]\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n * http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n\nexport default function common() {\n\n}"
+    },
+    {
+      "id": 1,
+      "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/utils.js",
+      "name": "./utils.js",
+      "index": 2,
+      "index2": 0,
+      "size": 627,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2,
+        4
+      ],
+      "issuer": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+      "issuerId": null,
+      "issuerName": "./module2.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "name": "./index.js",
+          "profile": {
+            "factory": 23,
+            "building": 15
+          }
+        },
+        {
+          "id": null,
+          "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+          "name": "./module2.js",
+          "profile": {
+            "factory": 10,
+            "building": 8,
+            "dependencies": 2
+          }
+        }
+      ],
+      "profile": {
+        "factory": 7,
+        "building": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": 3,
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js 20c5792f3c4922c6c6bdc862bd998a6d",
+          "module": "./index.js + 1 modules",
+          "moduleName": "./index.js + 1 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "./utils",
+          "loc": "16:0-29"
+        },
+        {
+          "moduleId": 3,
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js 20c5792f3c4922c6c6bdc862bd998a6d",
+          "module": "./index.js + 1 modules",
+          "moduleName": "./index.js + 1 modules",
+          "type": "harmony import specifier",
+          "userRequest": "./utils",
+          "loc": "20:4-8"
+        },
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+          "module": "./module1.js",
+          "moduleName": "./module1.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "./utils",
+          "loc": "18:0-29"
+        },
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+          "module": "./module1.js",
+          "moduleName": "./module1.js",
+          "type": "harmony import specifier",
+          "userRequest": "./utils",
+          "loc": "21:4-8"
+        }
+      ],
+      "usedExports": [
+        "util"
+      ],
+      "providedExports": [
+        "util"
+      ],
+      "optimizationBailout": [],
+      "depth": 2,
+      "source": "/*\n * Copyright [2022] [Kevin Velasco]\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n * http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n\n\nexport function util () {\n\n}"
+    },
+    {
+      "id": 2,
+      "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+      "name": "./entry_two.js",
+      "index": 4,
+      "index2": 4,
+      "size": 765,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "profile": {
+        "factory": 18,
+        "building": 17,
+        "dependencies": 7
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "./entry_two.js",
+          "loc": "entryTwo"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is an entry point"
+      ],
+      "depth": 0,
+      "source": "/*\n * Copyright [2022] [Kevin Velasco]\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n * http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n\nimport common from './common';\n\nconsole.log(\"Basic project\");\n\n(async function() {\n    const moduleOne = await import('./module1');\n    moduleOne();\n    common()\n})();"
+    },
+    {
+      "id": 3,
+      "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js 20c5792f3c4922c6c6bdc862bd998a6d",
+      "name": "./index.js + 1 modules",
+      "index": 0,
+      "index2": 3,
+      "size": 1616,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "./index.js",
+          "loc": "index"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Cannot concat with ./common.js",
+        "ModuleConcatenation bailout: Cannot concat with ./utils.js"
+      ],
+      "depth": 0,
+      "modules": [
+        {
+          "id": null,
+          "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "name": "./index.js",
+          "index": 0,
+          "index2": 3,
+          "size": 864,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 23,
+            "building": 15
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./index.js",
+              "loc": "index"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is an entry point"
+          ],
+          "depth": 0,
+          "source": "/*\n * Copyright [2022] [Kevin Velasco]\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n * http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n\nimport { moduleTwo } from './module2';\nimport common from './common';\n\n\nconsole.log(\"Basic project\");\n\n(async function() {\n    const image = import('./empty.png');\n\n    const moduleOne = await import('./module1');\n    moduleOne();\n    common()\n\n    moduleTwo()\n})();"
+        },
+        {
+          "id": null,
+          "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+          "name": "./module2.js",
+          "index": 1,
+          "index2": 2,
+          "size": 742,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "issuerId": null,
+          "issuerName": "./index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+              "name": "./index.js",
+              "profile": {
+                "factory": 23,
+                "building": 15
+              }
+            }
+          ],
+          "profile": {
+            "factory": 10,
+            "building": 8,
+            "dependencies": 2
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+              "module": "./index.js",
+              "moduleName": "./index.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./module2",
+              "loc": "17:0-38"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+              "module": "./index.js",
+              "moduleName": "./index.js",
+              "type": "harmony import specifier",
+              "userRequest": "./module2",
+              "loc": "30:4-13"
+            }
+          ],
+          "usedExports": [
+            "moduleTwo"
+          ],
+          "providedExports": [
+            "moduleTwo"
+          ],
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "/*\n * Copyright [2022] [Kevin Velasco]\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n * http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\nimport {util} from './utils';\nimport common from './common';\nexport function moduleTwo() {\n    common()\n    util()\n    console.log(\"Module 2!\")\n}"
+        }
+      ],
+      "filteredModules": 0
+    },
+    {
+      "id": 4,
+      "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+      "name": "./module1.js",
+      "index": 6,
+      "index2": 6,
+      "size": 741,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+      "issuerId": null,
+      "issuerName": "./index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "name": "./index.js",
+          "profile": {
+            "factory": 23,
+            "building": 15
+          }
+        }
+      ],
+      "profile": {
+        "factory": 10,
+        "building": 8,
+        "dependencies": 2
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+          "module": "./entry_two.js",
+          "moduleName": "./entry_two.js",
+          "type": "import()",
+          "userRequest": "./module1",
+          "loc": "22:28-47"
+        },
+        {
+          "moduleId": null,
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "module": "./index.js",
+          "moduleName": "./index.js",
+          "type": "import()",
+          "userRequest": "./module1",
+          "loc": "26:28-47"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./entry_two.js (referenced with import()), ./index.js (referenced with import())"
+      ],
+      "depth": 1,
+      "source": "/*\n * Copyright [2022] [Kevin Velasco]\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n * http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n\nimport common from './common';\nimport {util} from \"./utils\";\nexport default function() {\n    common()\n    util()\n    console.log(\"Module 1!\")\n}"
+    },
+    {
+      "id": 5,
+      "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/empty.png",
+      "name": "./empty.png",
+      "index": 5,
+      "index2": 5,
+      "size": 0,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        3
+      ],
+      "issuer": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+      "issuerId": null,
+      "issuerName": "./index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "name": "./index.js",
+          "profile": {
+            "factory": 23,
+            "building": 15
+          }
+        }
+      ],
+      "profile": {
+        "factory": 10,
+        "building": 8,
+        "dependencies": 2
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "module": "./index.js",
+          "moduleName": "./index.js",
+          "type": "import()",
+          "userRequest": "./empty.png",
+          "loc": "24:18-39"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1,
+      "source": ""
+    }
+  ],
+  "filteredModules": 0,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": []
+}

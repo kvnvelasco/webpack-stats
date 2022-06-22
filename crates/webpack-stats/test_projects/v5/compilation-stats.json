@@ -1,0 +1,4056 @@
+{
+  "hash": "cb79fc006bda10459b09",
+  "version": "5.73.0",
+  "time": 322,
+  "builtAt": 1656397107479,
+  "publicPath": "auto",
+  "outputPath": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/v5/dist",
+  "assetsByChunkName": {
+    "index": [
+      "index.js"
+    ],
+    "entryTwo": [
+      "entryTwo.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "index.js",
+      "size": 3193,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "minimized": true,
+        "size": 3193
+      },
+      "chunkNames": [
+        "index"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        288,
+        826
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "entryTwo.js",
+      "size": 2634,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "minimized": true,
+        "size": 2634
+      },
+      "chunkNames": [
+        "entryTwo"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        666
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "960.js",
+      "size": 197,
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "minimized": true,
+        "size": 197
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        960
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "1.js",
+      "size": 122,
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "minimized": true,
+        "size": 122
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        1
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "288.js",
+      "size": 117,
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "minimized": true,
+        "size": 117
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        288
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "31d6cfe0d16ae931b73c.png",
+      "size": 0,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "sourceFilename": "empty.png",
+        "immutable": true,
+        "contenthash": "31d6cfe0d16ae931b73c",
+        "size": 0
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [
+        1
+      ],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 43,
+      "sizes": {
+        "javascript": 42,
+        "asset": 1
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "index"
+      ],
+      "files": [
+        "1.js"
+      ],
+      "auxiliaryFiles": [
+        "31d6cfe0d16ae931b73c.png"
+      ],
+      "hash": "0e519f5af35ae041b5ef",
+      "childrenByOrder": {},
+      "id": 1,
+      "siblings": [],
+      "parents": [
+        826
+      ],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "asset/resource",
+          "layer": null,
+          "size": 42,
+          "sizes": {
+            "javascript": 42,
+            "asset": 1
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "asset/resource|/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/empty.png",
+          "name": "./empty.png",
+          "nameForCondition": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/empty.png",
+          "index": 5,
+          "preOrderIndex": 5,
+          "index2": 5,
+          "postOrderIndex": 5,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "issuerName": "./index.js",
+          "issuerPath": [
+            {
+              "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+              "name": "./index.js",
+              "profile": {
+                "total": 33,
+                "resolving": 17,
+                "restoring": 0,
+                "building": 15,
+                "integration": 0,
+                "storing": 1,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 17,
+                "dependencies": 0
+              },
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 6,
+            "resolving": 2,
+            "restoring": 0,
+            "building": 4,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 2,
+            "dependencies": 0
+          },
+          "id": 1,
+          "issuerId": null,
+          "chunks": [
+            1
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js|3f8ac3508410aa76c0f2082a385f5441",
+              "module": "./index.js + 1 modules",
+              "moduleName": "./index.js + 1 modules",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+              "resolvedModule": "./index.js",
+              "type": "import()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./empty.png",
+              "loc": "24:18-39",
+              "moduleId": 433,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 1
+        }
+      ],
+      "origins": [
+        {
+          "module": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "moduleName": "./index.js",
+          "loc": "24:18-39",
+          "request": "./empty.png",
+          "moduleId": null
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 627,
+      "sizes": {
+        "javascript": 627
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "entryTwo"
+      ],
+      "files": [
+        "288.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "616e54af2414a6bd0d00",
+      "childrenByOrder": {},
+      "id": 288,
+      "siblings": [
+        960
+      ],
+      "parents": [
+        666
+      ],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 627,
+          "sizes": {
+            "javascript": 627
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/utils.js",
+          "name": "./utils.js",
+          "nameForCondition": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/utils.js",
+          "index": 3,
+          "preOrderIndex": 3,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+          "issuerName": "./module2.js",
+          "issuerPath": [
+            {
+              "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+              "name": "./index.js",
+              "profile": {
+                "total": 33,
+                "resolving": 17,
+                "restoring": 0,
+                "building": 15,
+                "integration": 0,
+                "storing": 1,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 17,
+                "dependencies": 0
+              },
+              "id": null
+            },
+            {
+              "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+              "name": "./module2.js",
+              "profile": {
+                "total": 9,
+                "resolving": 4,
+                "restoring": 0,
+                "building": 5,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 4,
+                "dependencies": 0
+              },
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 2,
+            "resolving": 2,
+            "restoring": 0,
+            "building": 0,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 1,
+            "additionalIntegration": 0,
+            "factory": 2,
+            "dependencies": 1
+          },
+          "id": 288,
+          "issuerId": null,
+          "chunks": [
+            288,
+            826
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js|3f8ac3508410aa76c0f2082a385f5441",
+              "module": "./index.js + 1 modules",
+              "moduleName": "./index.js + 1 modules",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+              "resolvedModule": "./module2.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./utils",
+              "loc": "16:0-29",
+              "moduleId": 433,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js|3f8ac3508410aa76c0f2082a385f5441",
+              "module": "./index.js + 1 modules",
+              "moduleName": "./index.js + 1 modules",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+              "resolvedModule": "./module2.js",
+              "type": "harmony import specifier",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./utils",
+              "loc": "20:4-8",
+              "moduleId": 433,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+              "module": "./module1.js",
+              "moduleName": "./module1.js",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+              "resolvedModule": "./module1.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./utils",
+              "loc": "18:0-29",
+              "moduleId": 960,
+              "resolvedModuleId": 960
+            },
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+              "module": "./module1.js",
+              "moduleName": "./module1.js",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+              "resolvedModule": "./module1.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./utils",
+              "loc": "21:4-8",
+              "moduleId": 960,
+              "resolvedModuleId": 960
+            },
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+              "module": "./module2.js",
+              "moduleName": "./module2.js",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+              "resolvedModule": "./module2.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./utils",
+              "loc": "16:0-29",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+              "module": "./module2.js",
+              "moduleName": "./module2.js",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+              "resolvedModule": "./module2.js",
+              "type": "harmony import specifier",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./utils",
+              "loc": "20:4-8",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [
+            "util"
+          ],
+          "providedExports": [
+            "util"
+          ],
+          "optimizationBailout": [],
+          "depth": 2
+        }
+      ],
+      "origins": [
+        {
+          "module": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+          "moduleName": "./entry_two.js",
+          "loc": "22:28-47",
+          "request": "./module1",
+          "moduleId": 565
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 8123,
+      "sizes": {
+        "javascript": 1400,
+        "runtime": 6723
+      },
+      "names": [
+        "entryTwo"
+      ],
+      "idHints": [],
+      "runtime": [
+        "entryTwo"
+      ],
+      "files": [
+        "entryTwo.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "9b9c955c75369bcab09d",
+      "childrenByOrder": {},
+      "id": 666,
+      "siblings": [],
+      "parents": [],
+      "children": [
+        288,
+        960
+      ],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 635,
+          "sizes": {
+            "javascript": 635
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/common.js",
+          "name": "./common.js",
+          "nameForCondition": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/common.js",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "issuerName": "./index.js",
+          "issuerPath": [
+            {
+              "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+              "name": "./index.js",
+              "profile": {
+                "total": 33,
+                "resolving": 17,
+                "restoring": 0,
+                "building": 15,
+                "integration": 0,
+                "storing": 1,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 17,
+                "dependencies": 0
+              },
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 9,
+            "resolving": 4,
+            "restoring": 0,
+            "building": 5,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 4,
+            "dependencies": 0
+          },
+          "id": 543,
+          "issuerId": null,
+          "chunks": [
+            666,
+            826
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+              "module": "./entry_two.js",
+              "moduleName": "./entry_two.js",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+              "resolvedModule": "./entry_two.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./common",
+              "loc": "17:0-30",
+              "moduleId": 565,
+              "resolvedModuleId": 565
+            },
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+              "module": "./entry_two.js",
+              "moduleName": "./entry_two.js",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+              "resolvedModule": "./entry_two.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./common",
+              "loc": "24:4-10",
+              "moduleId": 565,
+              "resolvedModuleId": 565
+            },
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js|3f8ac3508410aa76c0f2082a385f5441",
+              "module": "./index.js + 1 modules",
+              "moduleName": "./index.js + 1 modules",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+              "resolvedModule": "./index.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./common",
+              "loc": "18:0-30",
+              "moduleId": 433,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js|3f8ac3508410aa76c0f2082a385f5441",
+              "module": "./index.js + 1 modules",
+              "moduleName": "./index.js + 1 modules",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+              "resolvedModule": "./index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./common",
+              "loc": "28:4-10",
+              "moduleId": 433,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js|3f8ac3508410aa76c0f2082a385f5441",
+              "module": "./index.js + 1 modules",
+              "moduleName": "./index.js + 1 modules",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+              "resolvedModule": "./module2.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./common",
+              "loc": "17:0-30",
+              "moduleId": 433,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js|3f8ac3508410aa76c0f2082a385f5441",
+              "module": "./index.js + 1 modules",
+              "moduleName": "./index.js + 1 modules",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+              "resolvedModule": "./module2.js",
+              "type": "harmony import specifier",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./common",
+              "loc": "19:4-10",
+              "moduleId": 433,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+              "module": "./module1.js",
+              "moduleName": "./module1.js",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+              "resolvedModule": "./module1.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./common",
+              "loc": "17:0-30",
+              "moduleId": 960,
+              "resolvedModuleId": 960
+            },
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+              "module": "./module1.js",
+              "moduleName": "./module1.js",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+              "resolvedModule": "./module1.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./common",
+              "loc": "20:4-10",
+              "moduleId": 960,
+              "resolvedModuleId": 960
+            },
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+              "module": "./module2.js",
+              "moduleName": "./module2.js",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+              "resolvedModule": "./module2.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./common",
+              "loc": "17:0-30",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+              "module": "./module2.js",
+              "moduleName": "./module2.js",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+              "resolvedModule": "./module2.js",
+              "type": "harmony import specifier",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./common",
+              "loc": "19:4-10",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 765,
+          "sizes": {
+            "javascript": 765
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+          "name": "./entry_two.js",
+          "nameForCondition": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+          "index": 4,
+          "preOrderIndex": 4,
+          "index2": 4,
+          "postOrderIndex": 4,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 26,
+            "resolving": 12,
+            "restoring": 0,
+            "building": 14,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 12,
+            "dependencies": 0
+          },
+          "id": 565,
+          "issuerId": null,
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./entry_two.js",
+              "loc": "entryTwo",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 19:0-29",
+            "ModuleConcatenation bailout: Cannot concat with ./common.js: Module ./common.js is referenced from different chunks by these modules: ./module1.js"
+          ],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 308,
+          "sizes": {
+            "runtime": 308
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/define property getters",
+          "name": "webpack/runtime/define property getters",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 326,
+          "sizes": {
+            "runtime": 326
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/ensure chunk",
+          "name": "webpack/runtime/ensure chunk",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 167,
+          "sizes": {
+            "runtime": 167
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/get javascript chunk filename",
+          "name": "webpack/runtime/get javascript chunk filename",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 221,
+          "sizes": {
+            "runtime": 221
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/global",
+          "name": "webpack/runtime/global",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 88,
+          "sizes": {
+            "runtime": 88
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 3073,
+          "sizes": {
+            "runtime": 3073
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/jsonp chunk loading",
+          "name": "webpack/runtime/jsonp chunk loading",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 1399,
+          "sizes": {
+            "runtime": 1399
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/load script",
+          "name": "webpack/runtime/load script",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 274,
+          "sizes": {
+            "runtime": 274
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/make namespace object",
+          "name": "webpack/runtime/make namespace object",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 867,
+          "sizes": {
+            "runtime": 867
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/publicPath",
+          "name": "webpack/runtime/publicPath",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "entryTwo",
+          "request": "./entry_two.js"
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 10741,
+      "sizes": {
+        "javascript": 2868,
+        "runtime": 7873
+      },
+      "names": [
+        "index"
+      ],
+      "idHints": [],
+      "runtime": [
+        "index"
+      ],
+      "files": [
+        "index.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "b03835bc441da25d8ba6",
+      "childrenByOrder": {},
+      "id": 826,
+      "siblings": [],
+      "parents": [],
+      "children": [
+        1,
+        960
+      ],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 635,
+          "sizes": {
+            "javascript": 635
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/common.js",
+          "name": "./common.js",
+          "nameForCondition": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/common.js",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "issuerName": "./index.js",
+          "issuerPath": [
+            {
+              "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+              "name": "./index.js",
+              "profile": {
+                "total": 33,
+                "resolving": 17,
+                "restoring": 0,
+                "building": 15,
+                "integration": 0,
+                "storing": 1,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 17,
+                "dependencies": 0
+              },
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 9,
+            "resolving": 4,
+            "restoring": 0,
+            "building": 5,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 4,
+            "dependencies": 0
+          },
+          "id": 543,
+          "issuerId": null,
+          "chunks": [
+            666,
+            826
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+              "module": "./entry_two.js",
+              "moduleName": "./entry_two.js",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+              "resolvedModule": "./entry_two.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./common",
+              "loc": "17:0-30",
+              "moduleId": 565,
+              "resolvedModuleId": 565
+            },
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+              "module": "./entry_two.js",
+              "moduleName": "./entry_two.js",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+              "resolvedModule": "./entry_two.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./common",
+              "loc": "24:4-10",
+              "moduleId": 565,
+              "resolvedModuleId": 565
+            },
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js|3f8ac3508410aa76c0f2082a385f5441",
+              "module": "./index.js + 1 modules",
+              "moduleName": "./index.js + 1 modules",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+              "resolvedModule": "./index.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./common",
+              "loc": "18:0-30",
+              "moduleId": 433,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js|3f8ac3508410aa76c0f2082a385f5441",
+              "module": "./index.js + 1 modules",
+              "moduleName": "./index.js + 1 modules",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+              "resolvedModule": "./index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./common",
+              "loc": "28:4-10",
+              "moduleId": 433,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js|3f8ac3508410aa76c0f2082a385f5441",
+              "module": "./index.js + 1 modules",
+              "moduleName": "./index.js + 1 modules",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+              "resolvedModule": "./module2.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./common",
+              "loc": "17:0-30",
+              "moduleId": 433,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js|3f8ac3508410aa76c0f2082a385f5441",
+              "module": "./index.js + 1 modules",
+              "moduleName": "./index.js + 1 modules",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+              "resolvedModule": "./module2.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./common",
+              "loc": "19:4-10",
+              "moduleId": 433,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+              "module": "./module1.js",
+              "moduleName": "./module1.js",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+              "resolvedModule": "./module1.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./common",
+              "loc": "17:0-30",
+              "moduleId": 960,
+              "resolvedModuleId": 960
+            },
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+              "module": "./module1.js",
+              "moduleName": "./module1.js",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+              "resolvedModule": "./module1.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./common",
+              "loc": "20:4-10",
+              "moduleId": 960,
+              "resolvedModuleId": 960
+            },
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+              "module": "./module2.js",
+              "moduleName": "./module2.js",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+              "resolvedModule": "./module2.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./common",
+              "loc": "17:0-30",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+              "module": "./module2.js",
+              "moduleName": "./module2.js",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+              "resolvedModule": "./module2.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./common",
+              "loc": "19:4-10",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/esm",
+          "layer": null,
+          "size": 1606,
+          "sizes": {
+            "javascript": 1606
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js|3f8ac3508410aa76c0f2082a385f5441",
+          "name": "./index.js + 1 modules",
+          "nameForCondition": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 3,
+          "postOrderIndex": 3,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 433,
+          "chunks": [
+            826
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./index.js",
+              "loc": "index",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Cannot concat with ./common.js: Module ./common.js is referenced from different chunks by these modules: ./module1.js",
+            "ModuleConcatenation bailout: Cannot concat with ./utils.js: Module ./utils.js is referenced from different chunks by these modules: ./module1.js"
+          ],
+          "depth": 0,
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 864,
+              "sizes": {
+                "javascript": 864
+              },
+              "built": true,
+              "codeGenerated": false,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+              "name": "./index.js",
+              "nameForCondition": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 3,
+              "postOrderIndex": 3,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "profile": {
+                "total": 33,
+                "resolving": 17,
+                "restoring": 0,
+                "building": 15,
+                "integration": 0,
+                "storing": 1,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 17,
+                "dependencies": 0
+              },
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [],
+              "usedExports": [],
+              "providedExports": [],
+              "optimizationBailout": [
+                "Statement (ExpressionStatement) with side effects in source code at 21:0-29"
+              ],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 742,
+              "sizes": {
+                "javascript": 742
+              },
+              "built": true,
+              "codeGenerated": false,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+              "name": "./module2.js",
+              "nameForCondition": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+              "index": 2,
+              "preOrderIndex": 2,
+              "index2": 2,
+              "postOrderIndex": 2,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+              "issuerName": "./index.js",
+              "issuerPath": [
+                {
+                  "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+                  "name": "./index.js",
+                  "profile": {
+                    "total": 33,
+                    "resolving": 17,
+                    "restoring": 0,
+                    "building": 15,
+                    "integration": 0,
+                    "storing": 1,
+                    "additionalResolving": 0,
+                    "additionalIntegration": 0,
+                    "factory": 17,
+                    "dependencies": 0
+                  },
+                  "id": null
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "profile": {
+                "total": 9,
+                "resolving": 4,
+                "restoring": 0,
+                "building": 5,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 4,
+                "dependencies": 0
+              },
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+                  "module": "./index.js",
+                  "moduleName": "./index.js",
+                  "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+                  "resolvedModule": "./index.js",
+                  "type": "harmony side effect evaluation",
+                  "active": false,
+                  "explanation": "",
+                  "userRequest": "./module2",
+                  "loc": "17:0-38",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+                  "module": "./index.js",
+                  "moduleName": "./index.js",
+                  "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+                  "resolvedModule": "./index.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./module2",
+                  "loc": "30:4-13",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": [
+                "moduleTwo"
+              ],
+              "providedExports": [
+                "moduleTwo"
+              ],
+              "optimizationBailout": [],
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 627,
+          "sizes": {
+            "javascript": 627
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/utils.js",
+          "name": "./utils.js",
+          "nameForCondition": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/utils.js",
+          "index": 3,
+          "preOrderIndex": 3,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+          "issuerName": "./module2.js",
+          "issuerPath": [
+            {
+              "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+              "name": "./index.js",
+              "profile": {
+                "total": 33,
+                "resolving": 17,
+                "restoring": 0,
+                "building": 15,
+                "integration": 0,
+                "storing": 1,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 17,
+                "dependencies": 0
+              },
+              "id": null
+            },
+            {
+              "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+              "name": "./module2.js",
+              "profile": {
+                "total": 9,
+                "resolving": 4,
+                "restoring": 0,
+                "building": 5,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 4,
+                "dependencies": 0
+              },
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 2,
+            "resolving": 2,
+            "restoring": 0,
+            "building": 0,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 1,
+            "additionalIntegration": 0,
+            "factory": 2,
+            "dependencies": 1
+          },
+          "id": 288,
+          "issuerId": null,
+          "chunks": [
+            288,
+            826
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js|3f8ac3508410aa76c0f2082a385f5441",
+              "module": "./index.js + 1 modules",
+              "moduleName": "./index.js + 1 modules",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+              "resolvedModule": "./module2.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./utils",
+              "loc": "16:0-29",
+              "moduleId": 433,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js|3f8ac3508410aa76c0f2082a385f5441",
+              "module": "./index.js + 1 modules",
+              "moduleName": "./index.js + 1 modules",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+              "resolvedModule": "./module2.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./utils",
+              "loc": "20:4-8",
+              "moduleId": 433,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+              "module": "./module1.js",
+              "moduleName": "./module1.js",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+              "resolvedModule": "./module1.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./utils",
+              "loc": "18:0-29",
+              "moduleId": 960,
+              "resolvedModuleId": 960
+            },
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+              "module": "./module1.js",
+              "moduleName": "./module1.js",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+              "resolvedModule": "./module1.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./utils",
+              "loc": "21:4-8",
+              "moduleId": 960,
+              "resolvedModuleId": 960
+            },
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+              "module": "./module2.js",
+              "moduleName": "./module2.js",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+              "resolvedModule": "./module2.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./utils",
+              "loc": "16:0-29",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+              "module": "./module2.js",
+              "moduleName": "./module2.js",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+              "resolvedModule": "./module2.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./utils",
+              "loc": "20:4-8",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [
+            "util"
+          ],
+          "providedExports": [
+            "util"
+          ],
+          "optimizationBailout": [],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 1141,
+          "sizes": {
+            "runtime": 1141
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/create fake namespace object",
+          "name": "webpack/runtime/create fake namespace object",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            826
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 308,
+          "sizes": {
+            "runtime": 308
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/define property getters",
+          "name": "webpack/runtime/define property getters",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            826
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 326,
+          "sizes": {
+            "runtime": 326
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/ensure chunk",
+          "name": "webpack/runtime/ensure chunk",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            826
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 167,
+          "sizes": {
+            "runtime": 167
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/get javascript chunk filename",
+          "name": "webpack/runtime/get javascript chunk filename",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            826
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 221,
+          "sizes": {
+            "runtime": 221
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/global",
+          "name": "webpack/runtime/global",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            826
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 88,
+          "sizes": {
+            "runtime": 88
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            826
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 3082,
+          "sizes": {
+            "runtime": 3082
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/jsonp chunk loading",
+          "name": "webpack/runtime/jsonp chunk loading",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            826
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 1399,
+          "sizes": {
+            "runtime": 1399
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/load script",
+          "name": "webpack/runtime/load script",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            826
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 274,
+          "sizes": {
+            "runtime": 274
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/make namespace object",
+          "name": "webpack/runtime/make namespace object",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            826
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 867,
+          "sizes": {
+            "runtime": 867
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/publicPath",
+          "name": "webpack/runtime/publicPath",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            826
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "index",
+          "request": "./index.js"
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "reused as split chunk (cache group: default)",
+      "size": 741,
+      "sizes": {
+        "javascript": 741
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "entryTwo",
+        "index"
+      ],
+      "files": [
+        "960.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "28a22264683189e91b00",
+      "childrenByOrder": {},
+      "id": 960,
+      "siblings": [
+        288
+      ],
+      "parents": [
+        666,
+        826
+      ],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 741,
+          "sizes": {
+            "javascript": 741
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+          "name": "./module1.js",
+          "nameForCondition": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+          "index": 6,
+          "preOrderIndex": 6,
+          "index2": 6,
+          "postOrderIndex": 6,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "issuerName": "./index.js",
+          "issuerPath": [
+            {
+              "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+              "name": "./index.js",
+              "profile": {
+                "total": 33,
+                "resolving": 17,
+                "restoring": 0,
+                "building": 15,
+                "integration": 0,
+                "storing": 1,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 17,
+                "dependencies": 0
+              },
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 10,
+            "resolving": 5,
+            "restoring": 0,
+            "building": 5,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 4,
+            "additionalIntegration": 0,
+            "factory": 5,
+            "dependencies": 4
+          },
+          "id": 960,
+          "issuerId": null,
+          "chunks": [
+            960
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+              "module": "./entry_two.js",
+              "moduleName": "./entry_two.js",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+              "resolvedModule": "./entry_two.js",
+              "type": "import()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./module1",
+              "loc": "22:28-47",
+              "moduleId": 565,
+              "resolvedModuleId": 565
+            },
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js|3f8ac3508410aa76c0f2082a385f5441",
+              "module": "./index.js + 1 modules",
+              "moduleName": "./index.js + 1 modules",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+              "resolvedModule": "./index.js",
+              "type": "import()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./module1",
+              "loc": "26:28-47",
+              "moduleId": 433,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Cannot concat with ./common.js: Module ./common.js is not in the same chunk(s) (expected in chunk(s) unnamed chunk(s), module is in chunk(s) entryTwo, index)",
+            "ModuleConcatenation bailout: Cannot concat with ./utils.js: Module ./utils.js is not in the same chunk(s) (expected in chunk(s) unnamed chunk(s), module is in chunk(s) index, unnamed chunk(s))"
+          ],
+          "depth": 1
+        }
+      ],
+      "origins": [
+        {
+          "module": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+          "moduleName": "./entry_two.js",
+          "loc": "22:28-47",
+          "request": "./module1",
+          "moduleId": 565
+        },
+        {
+          "module": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "moduleName": "./index.js",
+          "loc": "26:28-47",
+          "request": "./module1",
+          "moduleId": null
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "type": "module",
+      "moduleType": "javascript/esm",
+      "layer": null,
+      "size": 1606,
+      "sizes": {
+        "javascript": 1606
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js|3f8ac3508410aa76c0f2082a385f5441",
+      "name": "./index.js + 1 modules",
+      "nameForCondition": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+      "index": 0,
+      "preOrderIndex": 0,
+      "index2": 3,
+      "postOrderIndex": 3,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 433,
+      "chunks": [
+        826
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./index.js",
+          "loc": "index",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [],
+      "providedExports": [],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Cannot concat with ./common.js: Module ./common.js is referenced from different chunks by these modules: ./module1.js",
+        "ModuleConcatenation bailout: Cannot concat with ./utils.js: Module ./utils.js is referenced from different chunks by these modules: ./module1.js"
+      ],
+      "depth": 0,
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 864,
+          "sizes": {
+            "javascript": 864
+          },
+          "built": true,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "name": "./index.js",
+          "nameForCondition": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 3,
+          "postOrderIndex": 3,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 33,
+            "resolving": 17,
+            "restoring": 0,
+            "building": 15,
+            "integration": 0,
+            "storing": 1,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 17,
+            "dependencies": 0
+          },
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 21:0-29"
+          ],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 742,
+          "sizes": {
+            "javascript": 742
+          },
+          "built": true,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+          "name": "./module2.js",
+          "nameForCondition": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+          "index": 2,
+          "preOrderIndex": 2,
+          "index2": 2,
+          "postOrderIndex": 2,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "issuerName": "./index.js",
+          "issuerPath": [
+            {
+              "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+              "name": "./index.js",
+              "profile": {
+                "total": 33,
+                "resolving": 17,
+                "restoring": 0,
+                "building": 15,
+                "integration": 0,
+                "storing": 1,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 17,
+                "dependencies": 0
+              },
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 9,
+            "resolving": 4,
+            "restoring": 0,
+            "building": 5,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 4,
+            "dependencies": 0
+          },
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+              "module": "./index.js",
+              "moduleName": "./index.js",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+              "resolvedModule": "./index.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./module2",
+              "loc": "17:0-38",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+              "module": "./index.js",
+              "moduleName": "./index.js",
+              "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+              "resolvedModule": "./index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./module2",
+              "loc": "30:4-13",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [
+            "moduleTwo"
+          ],
+          "providedExports": [
+            "moduleTwo"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 765,
+      "sizes": {
+        "javascript": 765
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+      "name": "./entry_two.js",
+      "nameForCondition": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+      "index": 4,
+      "preOrderIndex": 4,
+      "index2": 4,
+      "postOrderIndex": 4,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "profile": {
+        "total": 26,
+        "resolving": 12,
+        "restoring": 0,
+        "building": 14,
+        "integration": 0,
+        "storing": 0,
+        "additionalResolving": 0,
+        "additionalIntegration": 0,
+        "factory": 12,
+        "dependencies": 0
+      },
+      "id": 565,
+      "issuerId": null,
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./entry_two.js",
+          "loc": "entryTwo",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [],
+      "providedExports": [],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 19:0-29",
+        "ModuleConcatenation bailout: Cannot concat with ./common.js: Module ./common.js is referenced from different chunks by these modules: ./module1.js"
+      ],
+      "depth": 0
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 635,
+      "sizes": {
+        "javascript": 635
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/common.js",
+      "name": "./common.js",
+      "nameForCondition": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/common.js",
+      "index": 1,
+      "preOrderIndex": 1,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+      "issuerName": "./index.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "name": "./index.js",
+          "profile": {
+            "total": 33,
+            "resolving": 17,
+            "restoring": 0,
+            "building": 15,
+            "integration": 0,
+            "storing": 1,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 17,
+            "dependencies": 0
+          },
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "profile": {
+        "total": 9,
+        "resolving": 4,
+        "restoring": 0,
+        "building": 5,
+        "integration": 0,
+        "storing": 0,
+        "additionalResolving": 0,
+        "additionalIntegration": 0,
+        "factory": 4,
+        "dependencies": 0
+      },
+      "id": 543,
+      "issuerId": null,
+      "chunks": [
+        666,
+        826
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+          "module": "./entry_two.js",
+          "moduleName": "./entry_two.js",
+          "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+          "resolvedModule": "./entry_two.js",
+          "type": "harmony side effect evaluation",
+          "active": false,
+          "explanation": "",
+          "userRequest": "./common",
+          "loc": "17:0-30",
+          "moduleId": 565,
+          "resolvedModuleId": 565
+        },
+        {
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+          "module": "./entry_two.js",
+          "moduleName": "./entry_two.js",
+          "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+          "resolvedModule": "./entry_two.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./common",
+          "loc": "24:4-10",
+          "moduleId": 565,
+          "resolvedModuleId": 565
+        },
+        {
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js|3f8ac3508410aa76c0f2082a385f5441",
+          "module": "./index.js + 1 modules",
+          "moduleName": "./index.js + 1 modules",
+          "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "resolvedModule": "./index.js",
+          "type": "harmony side effect evaluation",
+          "active": false,
+          "explanation": "",
+          "userRequest": "./common",
+          "loc": "18:0-30",
+          "moduleId": 433,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js|3f8ac3508410aa76c0f2082a385f5441",
+          "module": "./index.js + 1 modules",
+          "moduleName": "./index.js + 1 modules",
+          "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "resolvedModule": "./index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./common",
+          "loc": "28:4-10",
+          "moduleId": 433,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js|3f8ac3508410aa76c0f2082a385f5441",
+          "module": "./index.js + 1 modules",
+          "moduleName": "./index.js + 1 modules",
+          "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+          "resolvedModule": "./module2.js",
+          "type": "harmony side effect evaluation",
+          "active": false,
+          "explanation": "",
+          "userRequest": "./common",
+          "loc": "17:0-30",
+          "moduleId": 433,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js|3f8ac3508410aa76c0f2082a385f5441",
+          "module": "./index.js + 1 modules",
+          "moduleName": "./index.js + 1 modules",
+          "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+          "resolvedModule": "./module2.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./common",
+          "loc": "19:4-10",
+          "moduleId": 433,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+          "module": "./module1.js",
+          "moduleName": "./module1.js",
+          "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+          "resolvedModule": "./module1.js",
+          "type": "harmony side effect evaluation",
+          "active": false,
+          "explanation": "",
+          "userRequest": "./common",
+          "loc": "17:0-30",
+          "moduleId": 960,
+          "resolvedModuleId": 960
+        },
+        {
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+          "module": "./module1.js",
+          "moduleName": "./module1.js",
+          "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+          "resolvedModule": "./module1.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./common",
+          "loc": "20:4-10",
+          "moduleId": 960,
+          "resolvedModuleId": 960
+        },
+        {
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+          "module": "./module2.js",
+          "moduleName": "./module2.js",
+          "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+          "resolvedModule": "./module2.js",
+          "type": "harmony side effect evaluation",
+          "active": false,
+          "explanation": "",
+          "userRequest": "./common",
+          "loc": "17:0-30",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+          "module": "./module2.js",
+          "moduleName": "./module2.js",
+          "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+          "resolvedModule": "./module2.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./common",
+          "loc": "19:4-10",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 742,
+      "sizes": {
+        "javascript": 742
+      },
+      "built": true,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+      "name": "./module2.js",
+      "nameForCondition": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+      "index": 2,
+      "preOrderIndex": 2,
+      "index2": 2,
+      "postOrderIndex": 2,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+      "issuerName": "./index.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "name": "./index.js",
+          "profile": {
+            "total": 33,
+            "resolving": 17,
+            "restoring": 0,
+            "building": 15,
+            "integration": 0,
+            "storing": 1,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 17,
+            "dependencies": 0
+          },
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "profile": {
+        "total": 9,
+        "resolving": 4,
+        "restoring": 0,
+        "building": 5,
+        "integration": 0,
+        "storing": 0,
+        "additionalResolving": 0,
+        "additionalIntegration": 0,
+        "factory": 4,
+        "dependencies": 0
+      },
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "module": "./index.js",
+          "moduleName": "./index.js",
+          "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "resolvedModule": "./index.js",
+          "type": "harmony side effect evaluation",
+          "active": false,
+          "explanation": "",
+          "userRequest": "./module2",
+          "loc": "17:0-38",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "module": "./index.js",
+          "moduleName": "./index.js",
+          "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "resolvedModule": "./index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./module2",
+          "loc": "30:4-13",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [
+        "moduleTwo"
+      ],
+      "providedExports": [
+        "moduleTwo"
+      ],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "asset/resource",
+      "layer": null,
+      "size": 42,
+      "sizes": {
+        "javascript": 42,
+        "asset": 1
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "asset/resource|/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/empty.png",
+      "name": "./empty.png",
+      "nameForCondition": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/empty.png",
+      "index": 5,
+      "preOrderIndex": 5,
+      "index2": 5,
+      "postOrderIndex": 5,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+      "issuerName": "./index.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "name": "./index.js",
+          "profile": {
+            "total": 33,
+            "resolving": 17,
+            "restoring": 0,
+            "building": 15,
+            "integration": 0,
+            "storing": 1,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 17,
+            "dependencies": 0
+          },
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "profile": {
+        "total": 6,
+        "resolving": 2,
+        "restoring": 0,
+        "building": 4,
+        "integration": 0,
+        "storing": 0,
+        "additionalResolving": 0,
+        "additionalIntegration": 0,
+        "factory": 2,
+        "dependencies": 0
+      },
+      "id": 1,
+      "issuerId": null,
+      "chunks": [
+        1
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js|3f8ac3508410aa76c0f2082a385f5441",
+          "module": "./index.js + 1 modules",
+          "moduleName": "./index.js + 1 modules",
+          "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "resolvedModule": "./index.js",
+          "type": "import()",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./empty.png",
+          "loc": "24:18-39",
+          "moduleId": 433,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 741,
+      "sizes": {
+        "javascript": 741
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+      "name": "./module1.js",
+      "nameForCondition": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+      "index": 6,
+      "preOrderIndex": 6,
+      "index2": 6,
+      "postOrderIndex": 6,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+      "issuerName": "./index.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "name": "./index.js",
+          "profile": {
+            "total": 33,
+            "resolving": 17,
+            "restoring": 0,
+            "building": 15,
+            "integration": 0,
+            "storing": 1,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 17,
+            "dependencies": 0
+          },
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "profile": {
+        "total": 10,
+        "resolving": 5,
+        "restoring": 0,
+        "building": 5,
+        "integration": 0,
+        "storing": 0,
+        "additionalResolving": 4,
+        "additionalIntegration": 0,
+        "factory": 5,
+        "dependencies": 4
+      },
+      "id": 960,
+      "issuerId": null,
+      "chunks": [
+        960
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+          "module": "./entry_two.js",
+          "moduleName": "./entry_two.js",
+          "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/entry_two.js",
+          "resolvedModule": "./entry_two.js",
+          "type": "import()",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./module1",
+          "loc": "22:28-47",
+          "moduleId": 565,
+          "resolvedModuleId": 565
+        },
+        {
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js|3f8ac3508410aa76c0f2082a385f5441",
+          "module": "./index.js + 1 modules",
+          "moduleName": "./index.js + 1 modules",
+          "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "resolvedModule": "./index.js",
+          "type": "import()",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./module1",
+          "loc": "26:28-47",
+          "moduleId": 433,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Cannot concat with ./common.js: Module ./common.js is not in the same chunk(s) (expected in chunk(s) unnamed chunk(s), module is in chunk(s) entryTwo, index)",
+        "ModuleConcatenation bailout: Cannot concat with ./utils.js: Module ./utils.js is not in the same chunk(s) (expected in chunk(s) unnamed chunk(s), module is in chunk(s) index, unnamed chunk(s))"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 627,
+      "sizes": {
+        "javascript": 627
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/utils.js",
+      "name": "./utils.js",
+      "nameForCondition": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/utils.js",
+      "index": 3,
+      "preOrderIndex": 3,
+      "index2": 1,
+      "postOrderIndex": 1,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+      "issuerName": "./module2.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js",
+          "name": "./index.js",
+          "profile": {
+            "total": 33,
+            "resolving": 17,
+            "restoring": 0,
+            "building": 15,
+            "integration": 0,
+            "storing": 1,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 17,
+            "dependencies": 0
+          },
+          "id": null
+        },
+        {
+          "identifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+          "name": "./module2.js",
+          "profile": {
+            "total": 9,
+            "resolving": 4,
+            "restoring": 0,
+            "building": 5,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 4,
+            "dependencies": 0
+          },
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "profile": {
+        "total": 2,
+        "resolving": 2,
+        "restoring": 0,
+        "building": 0,
+        "integration": 0,
+        "storing": 0,
+        "additionalResolving": 1,
+        "additionalIntegration": 0,
+        "factory": 2,
+        "dependencies": 1
+      },
+      "id": 288,
+      "issuerId": null,
+      "chunks": [
+        288,
+        826
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js|3f8ac3508410aa76c0f2082a385f5441",
+          "module": "./index.js + 1 modules",
+          "moduleName": "./index.js + 1 modules",
+          "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+          "resolvedModule": "./module2.js",
+          "type": "harmony side effect evaluation",
+          "active": false,
+          "explanation": "",
+          "userRequest": "./utils",
+          "loc": "16:0-29",
+          "moduleId": 433,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/index.js|3f8ac3508410aa76c0f2082a385f5441",
+          "module": "./index.js + 1 modules",
+          "moduleName": "./index.js + 1 modules",
+          "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+          "resolvedModule": "./module2.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./utils",
+          "loc": "20:4-8",
+          "moduleId": 433,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+          "module": "./module1.js",
+          "moduleName": "./module1.js",
+          "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+          "resolvedModule": "./module1.js",
+          "type": "harmony side effect evaluation",
+          "active": false,
+          "explanation": "",
+          "userRequest": "./utils",
+          "loc": "18:0-29",
+          "moduleId": 960,
+          "resolvedModuleId": 960
+        },
+        {
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+          "module": "./module1.js",
+          "moduleName": "./module1.js",
+          "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module1.js",
+          "resolvedModule": "./module1.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./utils",
+          "loc": "21:4-8",
+          "moduleId": 960,
+          "resolvedModuleId": 960
+        },
+        {
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+          "module": "./module2.js",
+          "moduleName": "./module2.js",
+          "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+          "resolvedModule": "./module2.js",
+          "type": "harmony side effect evaluation",
+          "active": false,
+          "explanation": "",
+          "userRequest": "./utils",
+          "loc": "16:0-29",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+          "module": "./module2.js",
+          "moduleName": "./module2.js",
+          "resolvedModuleIdentifier": "/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/common_src/module2.js",
+          "resolvedModule": "./module2.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./utils",
+          "loc": "20:4-8",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [
+        "util"
+      ],
+      "providedExports": [
+        "util"
+      ],
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 1141,
+      "sizes": {
+        "runtime": 1141
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/create fake namespace object",
+      "name": "webpack/runtime/create fake namespace object",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        826
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 308,
+      "sizes": {
+        "runtime": 308
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/define property getters",
+      "name": "webpack/runtime/define property getters",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        826
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 308,
+      "sizes": {
+        "runtime": 308
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/define property getters",
+      "name": "webpack/runtime/define property getters",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 326,
+      "sizes": {
+        "runtime": 326
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/ensure chunk",
+      "name": "webpack/runtime/ensure chunk",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        826
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 326,
+      "sizes": {
+        "runtime": 326
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/ensure chunk",
+      "name": "webpack/runtime/ensure chunk",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 167,
+      "sizes": {
+        "runtime": 167
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/get javascript chunk filename",
+      "name": "webpack/runtime/get javascript chunk filename",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        826
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 167,
+      "sizes": {
+        "runtime": 167
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/get javascript chunk filename",
+      "name": "webpack/runtime/get javascript chunk filename",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 221,
+      "sizes": {
+        "runtime": 221
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/global",
+      "name": "webpack/runtime/global",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        826
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 221,
+      "sizes": {
+        "runtime": 221
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/global",
+      "name": "webpack/runtime/global",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 88,
+      "sizes": {
+        "runtime": 88
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/hasOwnProperty shorthand",
+      "name": "webpack/runtime/hasOwnProperty shorthand",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        826
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 88,
+      "sizes": {
+        "runtime": 88
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/hasOwnProperty shorthand",
+      "name": "webpack/runtime/hasOwnProperty shorthand",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 3082,
+      "sizes": {
+        "runtime": 3082
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/jsonp chunk loading",
+      "name": "webpack/runtime/jsonp chunk loading",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        826
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 3073,
+      "sizes": {
+        "runtime": 3073
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/jsonp chunk loading",
+      "name": "webpack/runtime/jsonp chunk loading",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 1399,
+      "sizes": {
+        "runtime": 1399
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/load script",
+      "name": "webpack/runtime/load script",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        826
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 1399,
+      "sizes": {
+        "runtime": 1399
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/load script",
+      "name": "webpack/runtime/load script",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 274,
+      "sizes": {
+        "runtime": 274
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/make namespace object",
+      "name": "webpack/runtime/make namespace object",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        826
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 274,
+      "sizes": {
+        "runtime": 274
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/make namespace object",
+      "name": "webpack/runtime/make namespace object",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 867,
+      "sizes": {
+        "runtime": 867
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/publicPath",
+      "name": "webpack/runtime/publicPath",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        826
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 867,
+      "sizes": {
+        "runtime": 867
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/publicPath",
+      "name": "webpack/runtime/publicPath",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    }
+  ],
+  "entrypoints": {
+    "index": {
+      "name": "index",
+      "chunks": [
+        826
+      ],
+      "assets": [
+        {
+          "name": "index.js",
+          "size": 3193
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 3193,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "entryTwo": {
+      "name": "entryTwo",
+      "chunks": [
+        666
+      ],
+      "assets": [
+        {
+          "name": "entryTwo.js",
+          "size": 2634
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 2634,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "index": {
+      "name": "index",
+      "chunks": [
+        826
+      ],
+      "assets": [
+        {
+          "name": "index.js",
+          "size": 3193
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 3193,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "entryTwo": {
+      "name": "entryTwo",
+      "chunks": [
+        666
+      ],
+      "assets": [
+        {
+          "name": "entryTwo.js",
+          "size": 2634
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 2634,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [
+    {
+      "message": "configuration\nThe 'mode' option has not been set, webpack will fallback to 'production' for this value.\nSet 'mode' option to 'development' or 'production' to enable defaults for each environment.\nYou can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/",
+      "stack": "NoModeWarning: configuration\nThe 'mode' option has not been set, webpack will fallback to 'production' for this value.\nSet 'mode' option to 'development' or 'production' to enable defaults for each environment.\nYou can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/\n    at /home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/v5/node_modules/webpack/lib/WarnNoModeSetPlugin.js:20:30\n    at Hook.eval [as call] (eval at create (/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/v5/node_modules/tapable/lib/HookCodeFactory.js:19:10), <anonymous>:21:1)\n    at Hook.CALL_DELEGATE [as _call] (/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/v5/node_modules/tapable/lib/Hook.js:14:14)\n    at Compiler.newCompilation (/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/v5/node_modules/webpack/lib/Compiler.js:1121:30)\n    at /home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/v5/node_modules/webpack/lib/Compiler.js:1166:29\n    at Hook.eval [as callAsync] (eval at create (/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/v5/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/v5/node_modules/tapable/lib/Hook.js:18:14)\n    at Compiler.compile (/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/v5/node_modules/webpack/lib/Compiler.js:1161:28)\n    at /home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/v5/node_modules/webpack/lib/Compiler.js:524:12\n    at Compiler.readRecords (/home/kevin_velasco/Data/Projects/webpack-stats/crates/webpack-stats/test_projects/v5/node_modules/webpack/lib/Compiler.js:986:5)"
+    }
+  ],
+  "warningsCount": 1,
+  "children": []
+}

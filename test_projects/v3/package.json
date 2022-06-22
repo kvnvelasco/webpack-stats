@@ -1,8 +1,0 @@
-{
-  "scripts": {
-    "build": "webpack --profile --json > compilation-stats.json"
-  },
-  "devDependencies": {
-    "webpack": "^3.0.0"
-  }
-}

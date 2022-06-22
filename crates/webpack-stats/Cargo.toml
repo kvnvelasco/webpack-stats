@@ -1,0 +1,25 @@
+[package]
+name = "webpack-stats"
+version = "0.0.1"
+edition = "2021"
+description = """
+As zero-copy as possible representation of webpack-stats
+"""
+repository = "https://github.com/kvnvelasco/webpack-stats"
+
+license = "Apache-2.0"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1", features = ['derive', 'rc'] }
+zerovec = { version = "0.7", features = ['serde'] }
+thiserror = "1"
+empty_type = { version = "0.2.2", features = ['serde', 'derive'] }
+meshed = { path = "../meshed", version = "0.1.0" }
+serde_json = "1"
+
+
+[features]
+all = ['v5']
+v5 = []
+sync = []
