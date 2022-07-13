@@ -1,6 +1,6 @@
 [package]
 name = "webpack-stats"
-version = "0.0.1"
+version = "0.2.0"
 edition = "2021"
 description = """
 As zero-copy as possible representation of webpack-stats
@@ -15,11 +15,12 @@ serde = { version = "1", features = ['derive', 'rc'] }
 zerovec = { version = "0.7", features = ['serde'] }
 thiserror = "1"
 empty_type = { version = "0.2.2", features = ['serde', 'derive'] }
-meshed = { path = "../meshed", version = "0.1.0" }
+meshed = { path = "../meshed", version = "0.2.0" }
 serde_json = "1"
 
 
 [features]
+default = ['all']
 all = ['v5']
 v5 = []
 sync = []

@@ -1,12 +1,12 @@
 [package]
 name = "webpack-q"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [dependencies]
-meshed = { path = "../meshed", version = "0.1.0" }
-webpack-stats = { version = "0.0.1", path = "../webpack-stats", features = ['all'] }
+meshed = { path = "../meshed", version = "0.2.0" }
+webpack-stats = { version = "0.2.0", path = "../webpack-stats", features = ['all'] }
 tracing = { version = "0.1", features = ['log'] }
 thiserror = "1"
 serde = "1"
