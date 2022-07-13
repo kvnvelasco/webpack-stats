@@ -27,12 +27,12 @@ Initial size (uncompressed): 25.209415 MiB
 Chunk Imports (* denotes asynchronous chunk):
 ├── 677 (1.4475832 MiB) [667-03ce85aefb0fc941b387.js ]
     ├── 9710 (6.102539 MiB) [9710-c6ff2448139ca25af0fd.js,]
-        ├── 9710 (6.102539 MiB) [teacher-c6ff2448139ca25af0fd.js,]
+        ├── 9710 (6.102539 MiB) [9710-c6ff2448139ca25af0fd.js,]
         ├*- 8531 (1.9375 KiB) [8531-ddf76b7aa317e31c4ab8.js,]
         ├*- 8378 (21.391602 KiB) [8378-011d566da73967dfe9dc.js,]
             ├*- 8326 (868.4404 KiB) [8326-312307f999168a94f725.js,]
                 ├*- 8334 (725.5176 KiB) [8334-416c2214d47f892bd20d.js,]
-                    ├*- 8182 (1.15102 MiB) [lantern-b79790621933d372cb89.js,]
+                    ├*- 8182 (1.15102 MiB) [8182-b79790621933d372cb89.js,]
      
 ```
 

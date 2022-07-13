@@ -2,14 +2,18 @@
 name = "webpack-q-cli"
 version = "0.2.0"
 edition = "2021"
+repository = ""
+description = "Ask questions about webpack compilation statistics"
+readme = "../../README.md"
+license = "Apache-2.0"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
 [[bin]]
 name = "webpack-q"
 path = "./src/main.rs"
 
 [dependencies]
-webpack-q = { path = "../../crates/webpack-q" }
+webpack-q = { path = "../../crates/webpack-q", version = "0.2.0" }
 clap = { version = "3", features = ['derive'] }
 tracing = "0.1"
 serde_json = "1"
